@@ -1,0 +1,894 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GMW Add-on - Premium Settings\n"
+"POT-Creation-Date: 2015-08-19 18:36-1000\n"
+"PO-Revision-Date: 2015-08-19 18:36-1000\n"
+"Last-Translator: Eyal Fitoussi <info@geomywp.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: friends/templates/infobox/default/content.php:70
+#: friends/templates/popup/center-white/content.php:77
+#: friends/templates/popup/left-white/content.php:78
+msgid "Member information"
+msgstr ""
+
+#: friends/templates/popup/default/content.php:48
+msgid "Address: "
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:177
+msgid "Post types map icons"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:178
+msgid "Assign map icon to each post type."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:184
+msgid "Per post map icon"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:185 includes/admin/gmw-ps-admin.php:194
+#: includes/admin/gmw-ps-admin.php:262 includes/admin/gmw-ps-admin.php:1246
+#: includes/admin/gmw-ps-admin.php:1256 includes/admin/gmw-ps-admin.php:1298
+#: includes/admin/gmw-ps-admin.php:1620 includes/admin/gmw-ps-admin.php:1716
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:186
+msgid ""
+"Assign a map icon to each post that you create or update. When this featured "
+"is enabled the map icons will be added to the admin \"Edit post\" page."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:193
+msgid "Category icons"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:195
+msgid ""
+"This feature does 2 things: <ol><li>Assign categories icon to taxonomies - "
+"you can display the categories icon next to a category checkboxes in GEO my "
+"WP search form.</li><li>Assign category map icons to taxonomies which you "
+"can display as custom map markers.</li></ol> To use the feature check the "
+"\"Enable category icons\" checkbox and choose the taxonomies that you would "
+"like to assign icons to. Then you can go to a taxonomy page and set the  "
+"category icons."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:207
+msgid "Members Locator"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:212
+msgid "Location tab address fields - loggedin user"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:213
+msgid ""
+"Choose the address fields that you would like to display in the \"Location\" "
+"tab of the logged in user."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:228
+msgid "Location tab address fields -  displayed user"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:229
+msgid ""
+"Choose the address fields that you would like to display in the \"Location\" "
+"tab when viwing the location of anotehr user."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:245
+msgid "Activity update address fields."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:246
+msgid ""
+"Choose the address fields that you would like to displayed in activity "
+"update ( after user update his location )"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:261
+msgid "Per members map icon"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:263
+msgid ""
+"This feature will add a \"Map icon\" tab to the user \"location\" tab in his "
+"profile page. Enable this feature if you would like the members of your site "
+"to be able to choose their map icon."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:289 includes/admin/gmw-ps-admin.php:466
+msgid "Enable category icons"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:297
+msgid "Use same icons for category and map icons"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:305 includes/admin/gmw-ps-admin.php:1118
+msgid "Taxonomies"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:307
+msgid ""
+"if you have just changed the Post Types settings above you will need to "
+"update this settings page in order to refresh the list of taxonomies below "
+"based on the new Post Types settings"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:326
+msgid "Taxonomies term orderby"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:329 includes/admin/gmw-ps-admin.php:488
+msgid "Name"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:330
+msgid "Term ID"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:331
+msgid "Count"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:332 includes/admin/gmw-ps-admin.php:489
+msgid "Slug"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:333
+msgid "Term group"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:339
+msgid "Taxonomies term order"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:342 includes/admin/gmw-ps-admin.php:500
+msgid "ASC"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:343 includes/admin/gmw-ps-admin.php:501
+msgid "DESC"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:452 includes/admin/gmw-ps-admin.php:594
+msgid "Usage"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:454
+msgid "Pre Defined"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:455
+msgid "Dropdown"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:456
+msgid "Checkboxes"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:457
+msgid "Smart-box"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:474
+msgid "Taxonomy label"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:477
+msgid "Label within the select box"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:478
+msgid "Show count"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:483
+msgid "Order terms by"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:487
+msgid "ID"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:495
+msgid "Order"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:510
+msgid "Exclude terms ( terms ID comma separated)"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:518
+msgid "Include terms by ID ( terms ID comma separated)"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:596
+msgid "Single field"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:598
+msgid "Multiple fields"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:612 includes/admin/gmw-ps-admin.php:1281
+#: includes/admin/gmw-ps-admin.php:1722
+msgid "Address"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:616 includes/admin/gmw-ps-admin.php:1541
+msgid "Field label:"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:621 includes/admin/gmw-ps-admin.php:731
+#: includes/admin/gmw-ps-admin.php:1546
+msgid "Label as placeholder"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:625 includes/admin/gmw-ps-admin.php:681
+msgid "Mandatory Field"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:629
+msgid "Google Places address autocomplete"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:653
+msgid "Exclude"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:658
+msgid "Include"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:663
+msgid "Pre-defined Value"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:670
+msgid "Field Title:"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:676
+msgid "Within the address field"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:692
+msgid "Default Value:"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:715 includes/admin/gmw-ps-admin.php:1533
+msgid "Do not Search"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:718
+msgid "Search post tilte"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:721
+msgid "Search post title and post content"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:726
+msgid "Field label: "
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:745
+msgid "Radius Values: "
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:750
+msgid "Use field as a Slider?"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:753
+msgid "Slider Default values: "
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:784
+msgid "Add custom field"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:883 includes/admin/gmw-ps-admin.php:1158
+#: includes/admin/gmw-ps-admin.php:1289 includes/admin/gmw-ps-admin.php:1705
+#: includes/admin/gmw-ps-admin.php:1723 includes/admin/gmw-ps-admin.php:1732
+#: includes/admin/gmw-ps-admin.php:1741
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:886
+msgid "Map height:"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:890
+msgid "Map width:"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:894
+msgid "Map Type:"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:904
+msgid "Map Frame"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:915 includes/admin/gmw-ps-admin.php:1404
+msgid "Global"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:920
+msgid "Per Post"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:925
+msgid "Per post type"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:930
+msgid "Per category"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:935
+msgid "Post featured image"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:984 includes/admin/gmw-ps-admin.php:1011
+msgid "Show"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:987
+msgid "Wider distance value: "
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:991 includes/admin/gmw-ps-admin.php:1014
+msgid "Title before: "
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:995 includes/admin/gmw-ps-admin.php:1018
+msgid "Link title: "
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:999 includes/admin/gmw-ps-admin.php:1022
+msgid "Title after: "
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1048 includes/admin/gmw-ps-admin.php:1067
+#: includes/admin/gmw-ps-admin.php:1477 includes/admin/gmw-ps-admin.php:1496
+msgid "Custom Template:"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1108 includes/admin/gmw-ps-admin.php:1563
+msgid "Radius / Distance"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1109 includes/admin/gmw-ps-admin.php:1564
+msgid ""
+"Enter distance values in the input box comma separated if you want to have a "
+"select dropdown menu of multiple radius values in the search form. If only "
+"one value entered it will be the default value of the search form which will "
+"be hidden."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1119
+msgid ""
+"Choose taxonomies that you want to display in the search form. you can "
+"display any of them using selectbox or checkboxes. you can use the \"Exclude"
+"\" box to enter term IDs (comma separated) of the terms that you want to "
+"exclude from the search results. use the \"pre defined\" checkbox whem you "
+"want set a taxonomiy as default (will be hidden) in the search form."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1128 includes/admin/gmw-ps-admin.php:1573
+msgid "Address field"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1130 includes/admin/gmw-ps-admin.php:1575
+msgid ""
+"Type the title for the address field of the search form. for example \"Enter "
+"your address\". this title wll be displayed either next to the address input "
+"field or within if you check the checkbox for it. You can also choose to "
+"have the address field mandatory which will prevent users from submitting "
+"the form if no address entered. Otherwise if you allow the field to be empty "
+"and user submit a form with no address the plugin will display all results."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1139
+msgid "Keywords field"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1140 includes/admin/gmw-ps-admin.php:1149
+msgid ""
+"Create additional input box to let users search based on keywords. You can "
+"let them search based on post title or post title and post content."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1148
+msgid "Custom fields"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1157 includes/admin/gmw-ps-admin.php:1619
+msgid "Markers display"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1159 includes/admin/gmw-ps-admin.php:1621
+msgid "Use marker Clusterer to group near locations."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1172
+msgid "Per results map"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1173
+msgid ""
+"This featured let you add a single map to each result in the results page "
+"with marker shows the location and marker shows the user location. This "
+"could be used instead or in addition to the main map."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1180
+msgid "Map icon usage"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1181 includes/admin/gmw-ps-admin.php:1635
+#: includes/admin/gmw-ps-admin.php:1800 includes/admin/gmw-ps-admin.php:1835
+msgid "Choose the map's icons that will be used to display results on the map"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1187 includes/admin/gmw-ps-admin.php:1642
+#: includes/admin/gmw-ps-admin.php:1807 includes/admin/gmw-ps-admin.php:1842
+msgid "Default map icon"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1188 includes/admin/gmw-ps-admin.php:1643
+#: includes/admin/gmw-ps-admin.php:1808 includes/admin/gmw-ps-admin.php:1843
+msgid ""
+"Choose the global icon for google map. All results will use this icon to "
+"show its location on the map unless you check the \"per post icon\" checkbox "
+"below. The map icons can be found in \"/wp-content/plugins/geo-my-wp/assets/"
+"map-icons/main-icons/\". you can easily remove or add your own icons to this "
+"folder. "
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1195 includes/admin/gmw-ps-admin.php:1815
+#: includes/admin/gmw-ps-admin.php:1850
+msgid "User Location Icon"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1196 includes/admin/gmw-ps-admin.php:1651
+#: includes/admin/gmw-ps-admin.php:1816 includes/admin/gmw-ps-admin.php:1851
+msgid ""
+"Choose the icon that will show the user location on the map. the \"your "
+"location\" icons can be found in \"/wp-content/plugins/geo-my-wp/assets/map-"
+"icons/your-location-icons/\". you can easily remove or add your own icons to "
+"this folder. "
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1204 includes/admin/gmw-ps-admin.php:1659
+msgid "Map controls"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1205 includes/admin/gmw-ps-admin.php:1660
+msgid "Which map controls would you like to use"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1208 includes/admin/gmw-ps-admin.php:1663
+msgid "Zoom"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1209 includes/admin/gmw-ps-admin.php:1664
+msgid "Pan"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1210 includes/admin/gmw-ps-admin.php:1665
+msgid "Scale"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1211 includes/admin/gmw-ps-admin.php:1666
+msgid "Map Type"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1212 includes/admin/gmw-ps-admin.php:1667
+msgid "Street View"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1213 includes/admin/gmw-ps-admin.php:1668
+msgid "Overview"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1214
+msgid "Scrollwheel ( enable map zoom in/out using mouse scroll-wheel )"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1215 includes/admin/gmw-ps-admin.php:1670
+msgid "Resize map trigger"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1220
+msgid "Marker window"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1225 includes/admin/gmw-ps-admin.php:1681
+msgid "Marker info-window type"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1226
+msgid ""
+"How would you like to display the marker's information? \"Infobox\" will "
+"open an info window within the map above the marker or Pop-up window will "
+"pop-up an HTML window in the middle of the screen."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1237
+msgid "Info-window template"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1238
+msgid "Choose the theme that will display the marker window."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1245
+msgid "Draggable marker info-window"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1247
+msgid ""
+"Allow the user to drag the pop-up window across the screen. ( pop-up infoe "
+"window only )"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1255
+msgid "Featured image"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1257
+msgid "Display featured image"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1265
+msgid "Excerpt"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1266
+msgid ""
+"This featured will grab the number of words that you choose from the post "
+"content and display it. Set the number of words you want to display or leave "
+"empty to display the entire content."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1273
+msgid "Additional information"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1274
+msgid "Which fields of the additional information would you like to display?"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1277
+msgid "Phone"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1278
+msgid "Fax"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1279
+msgid "Email"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1280
+msgid "Website"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1288
+msgid "Get directions link"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1290 includes/admin/gmw-ps-admin.php:1742
+msgid ""
+"Display get directions link that will open a new window with Google map "
+"showting the directions to the location."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1297
+msgid "Live directions"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1299
+msgid ""
+"Display directions system inside the info-window. ( available for pop-up "
+"info-window only )"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1308 includes/admin/gmw-ps-admin.php:1758
+msgid "No Results"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1312
+msgid "No results found."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1313
+msgid "No results title"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1314 includes/admin/gmw-ps-admin.php:1764
+msgid "The title that will be displayed when no results found."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1320 includes/admin/gmw-ps-admin.php:1770
+msgid "Wider search link"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1321 includes/admin/gmw-ps-admin.php:1771
+msgid "Link that will search within a wider range when no results found."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1327
+msgid "All results"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1328 includes/admin/gmw-ps-admin.php:1778
+msgid "Create link that will display all results when no results found."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1375
+msgid "Choose the \"Age Range\" Field"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1395
+msgid ""
+"Your buddypress profile fields are deactivated.  To activate and use them <a "
+"href=\""
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1409
+msgid "Per Member"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1414 includes/admin/gmw-ps-admin.php:1713
+msgid "Avatar"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1536
+msgid "Search Member's Name"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1583
+msgid "Keyword field"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1585
+msgid ""
+"Create additional input box to let users search for members by member's name."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1594
+msgid "Xprofile fields"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1595
+msgid ""
+"hoose the profile fields that you want to display in each of the results."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1603
+msgid "Address fields"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1604
+msgid "Choose the address fields to display for each member in the results."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1607
+#: includes/gmw-ps-template-functions.php:308
+msgid "Street"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1608
+msgid "Apt"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1609
+#: includes/gmw-ps-template-functions.php:309
+msgid "City"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1610
+#: includes/gmw-ps-template-functions.php:310
+msgid "State"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1611
+#: includes/gmw-ps-template-functions.php:311
+msgid "Zipcode"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1612
+#: includes/gmw-ps-template-functions.php:312
+msgid "Country"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1634
+msgid "Map icons usage"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1650
+msgid "User location map icon"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1669
+msgid "Scroll Wheel"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1675
+msgid "Marker Window"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1682
+msgid ""
+"What type of marker window would you like to use? \"Infobox\" will open an "
+"info window within the map above the marker or Pop-up window will pop-up an "
+"HTML window in the middle of the screen."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1695
+msgid "Marker info-window template"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1697
+msgid "Choose the theme for the marker window."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1704
+msgid "Draggable window"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1706
+msgid ""
+"Allow the user to drag the pop-up window across the screen. ( available for "
+"pop-up info-window only )"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1714
+msgid "Member avatar?"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1724
+msgid "Display address"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1731
+msgid "In Window Directions"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1733
+msgid ""
+"Display complete directions link within the info-window. ( pop-up infoe "
+"window only )"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1740
+msgid "Get Directions Link"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1750
+msgid "Xprofile Fields"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1751
+msgid ""
+"Choose the profile fields that you want to display in each of the results."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1762
+msgid "No members found."
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1763
+msgid "No results\" title"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1777
+msgid "All Results"
+msgstr ""
+
+#: includes/admin/gmw-ps-admin.php:1799 includes/admin/gmw-ps-admin.php:1834
+msgid "Map Icon Usage"
+msgstr ""
+
+#: includes/admin/gmw-ps-category-icons.php:93
+#: includes/admin/gmw-ps-category-icons.php:148
+msgid "Category Icon"
+msgstr ""
+
+#: includes/admin/gmw-ps-category-icons.php:97
+msgid "Map Icon"
+msgstr ""
+
+#: includes/admin/gmw-ps-category-icons.php:117
+#: includes/admin/gmw-ps-category-icons.php:128
+msgid "N/A"
+msgstr ""
+
+#: includes/admin/gmw-ps-category-icons.php:177
+msgid "Maps Icon:"
+msgstr ""
+
+#: includes/admin/gmw-ps-per-post-map-icon.php:16
+#: includes/admin/gmw-ps-per-post-map-icon.php:63
+msgid "GMW Map Icons"
+msgstr ""
+
+#: includes/admin/gmw-ps-per-post-map-icon.php:29
+msgid "Map's Icons:"
+msgstr ""
+
+#: includes/gmw-ps-template-functions.php:131
+msgid "Radius: "
+msgstr ""
+
+#: includes/gmw-ps-template-functions.php:316
+msgid "Address Fields:"
+msgstr ""
+
+#: includes/gmw-ps-template-functions.php:338
+msgid "Map Icons"
+msgstr ""
+
+#: includes/gmw-ps-template-functions.php:413
+msgid "Choose your map icon"
+msgstr ""
+
+#: posts/includes/gmw-ps-pt-template-functions.php:82
+msgid " - All - "
+msgstr ""
+
+#: posts/includes/gmw-ps-pt-template-functions.php:86
+msgid "No results match"
+msgstr ""
+
+#: posts/includes/gmw-ps-pt-template-functions.php:87
+msgid "Select Some Options"
+msgstr ""
+
+#: posts/includes/gmw-ps-pt-template-functions.php:88
+msgid "Choose "
+msgstr ""
+
+#: posts/templates/infobox/default/content.php:68
+#: posts/templates/popup/center-white/content.php:76
+#: posts/templates/popup/left-white/content.php:77
+msgid "Information"
+msgstr ""
+
+#: premium-settings.php:36
+msgid "Premium Settings"
+msgstr ""
+
+#: premium-settings.php:96
+msgid ""
+"Premium Settings add-on version 1.6 requires GEO my WP plugin version 2.6.1 "
+"or higher."
+msgstr ""
+
+#: premium-settings.php:118
+msgid ""
+"Boost GEO my WP with additional advanced features provided by the add-on."
+msgstr ""

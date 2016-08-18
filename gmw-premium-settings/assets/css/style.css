@@ -1,0 +1,66 @@
+/* admin style */
+
+table.gmw-cf-holder tr th {
+	background: #C2D7EF;
+	padding:5px;
+	text-align:center;
+}
+
+table.gmw-cf-holder tr td {
+	border:1px solid #bbb;
+	padding: 12px 10px;
+	border: 1px solid #BBB;
+	//min-width: 140px;
+}
+
+table.gmw-cf-holder tr td,
+table.gmw-cf-holder tr td select, 
+.gmw-saf-table div select,
+table.gmw-cf-holder tr td input[type="text"], 
+.gmw-saf-table div input[type="text"],
+table.gmw-cf-holder tr td button, 
+.gmw-saf-table div button {
+	height:24px !important;
+	font-size: 12px !important;
+	line-height: 20px !important
+} 
+
+table.gmw-cf-holder tr td.cf-title {
+	width:90px;
+}
+
+.gmw-post-type-icon-list-trigger {
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.gmw-per-post-map-icons-wrapper .gmw-icons-list {
+	display:none;
+	width: auto;
+	padding: 5px;
+	background: #f9f9f9;
+	border: 1px solid #e9e9e9;
+}
+
+.gmw-per-post-map-icons-wrapper .gmw-icons-list img {
+	width:22px;
+	height:auto;
+}
+
+a.gmw-taxonomy-toggle .fa.fa-cog {
+	font-size:20px;
+	float:right;
+}
+
+a.gmw-taxonomy-toggle span.right {
+	float: 	right;
+	font-size: 16px;
+	margin-right: 5px;
+	line-height: 20px;
+}
+
+a.gmw-taxonomy-sort-handle.fa.fa-bars {
+	font-size:20px;
+	float:left;
+	cursor: move;
+}
