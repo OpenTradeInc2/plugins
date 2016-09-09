@@ -479,9 +479,9 @@
             $userId = getCurrentUser()->ID;
             $date = getFormatDate();
             $wpdb->query("INSERT INTO `ot_custom_distributor`
-                        (`distributor_name`, `location`,`tax_id`, `added_by`, `added_date`)
+                        (`distributor_name`, `location`,`tax_id`, `added_by`, `added_date`,`type`)
                         VALUES
-                        ('".$distributorName."', '".$locationDistributor."', '".$taxIdDistributor."', ".$userId.", '".$date."');");
+                        ('".$distributorName."', '".$locationDistributor."', '".$taxIdDistributor."', ".$userId.", '".$date."', 'Distributor');");
         }
     }
 

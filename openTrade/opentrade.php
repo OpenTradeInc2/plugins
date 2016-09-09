@@ -1302,7 +1302,7 @@ License: GPL2
                     if($wpdb->check_connection()){
                         $distributors =  $wpdb->get_results("SELECT dist.`distributor_id`, dist.`distributor_name`, dist.`location`,dist.`tax_id`, dist.`added_date`, dist.`status` 
                                                              FROM `ot_custom_distributor` as dist 
-                                                             WHERE `email_administrator` in (SELECT `ot_custom_distributor_user`.`distributor_user_username` FROM `ot_custom_distributor_user` WHERE `distributor_user_reg_type` = 'Distributor');");
+                                                             WHERE `type` = 'Distributor';");
                         foreach ($distributors as $distributor) {
                             ?>
                             <tr>
