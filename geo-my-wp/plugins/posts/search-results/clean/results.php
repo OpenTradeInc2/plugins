@@ -22,6 +22,11 @@
 wc_print_notices();
 
 ?>
+<style type="text/css">
+	.product {
+		min-height: 110px;
+	}
+</style>
 
 <script type="text/javascript">
 function copycont() {
@@ -142,7 +147,7 @@ document.getElementById("units").value = document.getElementById("gmw-address-22
 						<!-- Get directions -->
 						<?php if ( isset( $gmw['search_results']['get_directions'] ) ) { ?>
 							<div class="wppl-get-directions">
-								<strong>Distributor: </strong>
+								<strong>Supplier: </strong>
 								<?php echo isa_woo_get_one_pa('Distributor Name');
 								//gmw_directions_link( $post, $gmw, $gmw['labels']['search_results']['directions'] );
 								?>
