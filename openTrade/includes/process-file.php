@@ -52,7 +52,7 @@
 
     function validateQuantityHeaders($allDataInSheet){
 
-        $headersQuantity = count($allDataInSheet[1]);
+        $headersQuantity = customCount($allDataInSheet[1]);
 
 		//if($headersQuantity == 15 ){
         if($headersQuantity == 21){
@@ -61,6 +61,16 @@
             $result= false;
         }
         return $result;
+    }
+
+    function customCount($dataInSheet){
+        $count = 0;
+        foreach ($dataInSheet as $data){
+            if($data !== NULL){
+                $count += 1;
+            }
+        }
+        return $count;
     }
 
     function validateNameHeaders($allDataInSheet){
