@@ -383,7 +383,7 @@ function gmw_get_search_form_radius_values( $gmw, $class=false ) {
    		
 		$title = apply_filters( 'gmw_radius_dropdown_title', $title, $gmw );
 		
-        $output .= "<select class=\"gmw-distance-select gmw-distance-select-{$gmw['ID']}\" name=\"{$gmw['url_px']}distance\">";
+        $output .= "<select id=\"dista_heater\" oninput=\"copycontheatertobardistance()\" class=\"gmw-distance-select gmw-distance-select-{$gmw['ID']}\" name=\"{$gmw['url_px']}distance\">";
         $output .= 	'<option value="'.esc_attr( $default_value ).'">'.esc_attr( $title ).'</option>';
 
         foreach ( $miles as $mile ) {
