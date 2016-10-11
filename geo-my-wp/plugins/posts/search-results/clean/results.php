@@ -154,7 +154,7 @@ document.getElementById("units").value = document.getElementById("gmw-address-22
 							</div>
 						<?php } ?>
 						<?php if (gmw_get_distance_to_location($post, $gmw )) { ?>
-							<div class="dist" style="width: 220px!important;"><?php gmw_distance_to_location($post, $gmw)?></div>
+							<div class="dist" style="width: 180px!important; margin-bottom: 10px;">Distance: <?php gmw_distance_to_location($post, $gmw)?></div>
 						<?php } ?>
 						<div style="position:absolute; top:2px; right: 10px;; text-align: center!important;">
 							<?php do_action( 'woocommerce_after_shop_loop_item_title' ); ?>
