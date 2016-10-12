@@ -20,6 +20,23 @@
 ?>
 <?php do_action( 'gmw_before_search_form_template', $gmw ); ?>
 
+<script type="text/javascript">
+	function copycont() {
+
+		document.getElementById("units").value = document.getElementById("gmw-address-2222").value;
+	}
+	function copycontbartoheaterunits() {
+		document.getElementById("gmw-address-2222").value = document.getElementById("units").value;
+	}
+	function copycontheatertobardistance() {
+		document.getElementById("dista").value = document.getElementById("dista_heater").value;
+		document.getElementById("range").innerHTML=document.getElementById("dista_heater").value+" miles";
+	}
+	function copycontbartoheaterdistance() {
+		document.getElementById("dista_heater").value = document.getElementById("dista").value;
+	}
+</script>
+
 <div class="gmw-form-wrapper gmw-form-wrapper<?php echo $gmw['ID']; ?> gmw-pt-form-wrapper gmw-pt-horizontal-gray-form-wrapper">
 	
 	<?php do_action( 'gmw_before_search_form', $gmw ); ?>
